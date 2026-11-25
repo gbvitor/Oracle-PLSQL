@@ -8,7 +8,7 @@
 --
 -- Em 19c não existe DROP TABLE IF EXISTS; o bloco abaixo tenta o DROP e
 -- ignora só o erro ORA-00942 (tabela inexistente). Qualquer outro erro sobe.
--- [23ai+] Equivalente direto: DROP TABLE IF EXISTS itens_pedido CASCADE CONSTRAINTS PURGE;
+-- [23ai+] Equivalente direto: DROP TABLE IF EXISTS itens_pedido CASCADE CONSTRAINTS PURGE
 -- =============================================================================
 
 DECLARE

@@ -34,7 +34,7 @@ Nem todo tópico precisa de todas as partes; seções vazias são omitidas.
 - Cada script roda sozinho sobre o schema de exemplo, sem depender de outro script além da carga inicial.
 - Script que cria objetos ou altera dados termina com o bloco de limpeza (`ROLLBACK` ou `DROP`), para o schema voltar ao estado original.
 - Palavras-chave em maiúsculas, nomes de objetos em minúsculas.
-- Comentário antes de cada consulta dizendo o que ela demonstra e, quando útil, o resultado esperado.
+- Comentário antes de cada consulta dizendo o que ela demonstra e, quando útil, o resultado esperado (`-- Esperado: ...`). Nunca comentário depois do `;` na mesma linha, nem `&` dentro de comentário (ver `01-fundamentos/08-comentarios.md`).
 
 Cabeçalho padrão:
 

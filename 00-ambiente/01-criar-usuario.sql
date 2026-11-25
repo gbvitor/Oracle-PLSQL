@@ -35,4 +35,4 @@ GRANT SELECT ANY DICTIONARY TO estudo;
 
 -- [23ai+] Alternativa: a role DB_DEVELOPER_ROLE reúne os privilégios usuais
 -- de desenvolvimento. Em 19c ela não existe.
--- GRANT DB_DEVELOPER_ROLE TO estudo;
+-- GRANT DB_DEVELOPER_ROLE TO estudo
