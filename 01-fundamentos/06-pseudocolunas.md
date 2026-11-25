@@ -43,7 +43,8 @@ Endereço físico da linha: objeto, arquivo, bloco e posição dentro do bloco. 
 Profundidade da linha numa consulta hierárquica com `CONNECT BY`: 1 para a raiz, 2 para os filhos, e assim por diante. Detalhado na seção 02. Uso frequente fora de hierarquias, para gerar uma sequência de números:
 
 ```sql
-SELECT LEVEL AS n FROM dual CONNECT BY LEVEL <= 12;   -- 1 a 12
+-- 1 a 12
+SELECT LEVEL AS n FROM dual CONNECT BY LEVEL <= 12;
 ```
 
 Outras pseudocolunas hierárquicas: `CONNECT_BY_ISLEAF`, `CONNECT_BY_ISCYCLE`.

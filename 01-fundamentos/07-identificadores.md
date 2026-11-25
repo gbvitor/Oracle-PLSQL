@@ -16,8 +16,10 @@ Sem aspas, o Oracle **converte o nome para maiúsculas** ao gravar no dicionári
 Por isso, consultas ao dicionário de dados usam maiúsculas:
 
 ```sql
-SELECT column_name FROM user_tab_columns WHERE table_name = 'CLIENTES';   -- encontra
-SELECT column_name FROM user_tab_columns WHERE table_name = 'clientes';   -- não encontra
+-- encontra
+SELECT column_name FROM user_tab_columns WHERE table_name = 'CLIENTES';
+-- não encontra
+SELECT column_name FROM user_tab_columns WHERE table_name = 'clientes';
 ```
 
 ## Identificadores entre aspas
