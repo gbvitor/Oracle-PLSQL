@@ -1,0 +1,24 @@
+# Saídas de SQL*Plus / SQLcl
+*.lst
+*.log
+*.out
+spool/
+
+# Exportações e dumps
+*.dmp
+*.csv.tmp
+
+# Credenciais e configuração local
+.env
+*.wallet
+wallet/
+tnsnames.ora
+sqlnet.ora
+login.sql
+
+# Editores e sistema
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
