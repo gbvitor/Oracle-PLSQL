@@ -12,14 +12,14 @@ Objetos criados pelos scripts usam o prefixo `tmp_` e são removidos no fim de c
 | 04 | Triggers DML: linha e instrução, BEFORE e AFTER, :NEW e :OLD, WHEN, ordem de disparo | [md](04-triggers.md) | [sql](04-triggers.sql) |
 | 05 | Tabela mutante (ORA-04091) e compound trigger | [md](05-tabela-mutante.md) | [sql](05-tabela-mutante.sql) |
 | 06 | Triggers INSTEAD OF e de sistema (DDL, LOGON) | [md](06-triggers-instead-of-e-sistema.md) | [sql](06-triggers-instead-of-e-sistema.sql) |
+| 07 | Coleções: associative array, nested table, VARRAY; métodos, erros, MULTISET | [md](07-colecoes.md) | [sql](07-colecoes.sql) |
+| 08 | BULK COLLECT, LIMIT, FORALL, SQL%BULK_ROWCOUNT, SAVE EXCEPTIONS | [md](08-bulk-collect-forall.md) | [sql](08-bulk-collect-forall.sql) |
+| 09 | SQL dinâmico: EXECUTE IMMEDIATE, binds, injeção, DBMS_ASSERT, DBMS_SQL | [md](09-sql-dinamico.md) | [sql](09-sql-dinamico.sql) |
+| 10 | REF CURSOR e SYS_REFCURSOR | [md](10-ref-cursor.md) | [sql](10-ref-cursor.sql) |
+| 11 | Pipelined table functions | [md](11-pipelined.md) | [sql](11-pipelined.sql) |
 
 ## Próximos tópicos
 
-- [ ] 07 — Coleções: associative array, nested table, VARRAY; métodos
-- [ ] 08 — BULK COLLECT, LIMIT e FORALL; SAVE EXCEPTIONS
-- [ ] 09 — SQL dinâmico: EXECUTE IMMEDIATE, bind variables, DBMS_SQL
-- [ ] 10 — REF CURSOR e SYS_REFCURSOR
-- [ ] 11 — Pipelined table functions
 - [ ] 12 — PRAGMA AUTONOMOUS_TRANSACTION (log de erro)
 - [ ] 13 — Rastreamento de erro: DBMS_UTILITY.FORMAT_ERROR_BACKTRACE e UTL_CALL_STACK
 - [ ] 14 — Direitos de execução: AUTHID DEFINER e CURRENT_USER

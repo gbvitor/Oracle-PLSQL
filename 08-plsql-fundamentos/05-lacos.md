@@ -34,6 +34,7 @@ END LOOP;
 - A variável do laço (`i`) é **declarada automaticamente** como `PLS_INTEGER`, existe só dentro do laço e **não pode ser alterada** (PLS-00363).
 - Os limites são avaliados **uma vez**, no início. Mudar a variável usada como limite dentro do laço não muda a quantidade de voltas.
 - Se o limite inferior for maior que o superior (`FOR i IN 10 .. 1`), o laço não executa nenhuma vez. Para contar para trás, `REVERSE` com os limites na ordem normal.
+- Limite **NULL** não é zero voltas: dá VALUE_ERROR (ORA-06502). Acontece com `FOR i IN v_lista.FIRST .. v_lista.LAST` em coleção vazia (seção 09, tópico 07).
 - Passo sempre 1. Para outros passos, multiplique (`i * 5`) ou use `WHILE`.
 
 ## EXIT e CONTINUE
