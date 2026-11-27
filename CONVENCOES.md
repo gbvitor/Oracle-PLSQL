@@ -56,11 +56,23 @@ Cabeçalho padrão:
 | `[23ai+]` | Exige 23ai ou superior (inclui 26ai) |
 | `[legado]` | Sintaxe antiga, mantida para leitura de código existente; não usar em código novo |
 
+Marcas como `[11g+]`, `[12c+]` e `[18c+]` aparecem quando vale saber em que versão o recurso surgiu (para ler código antigo ou trabalhar em banco antigo); todas funcionam no 19c.
+
 ## Nomenclatura
 
 - Pastas e arquivos: minúsculas, sem acento, palavras separadas por hífen.
 - Objetos de banco nos exemplos: português, minúsculas, `snake_case`, sem acento.
 - Objetos criados só para um exemplo usam o prefixo `tmp_` e são removidos no fim do script.
+- Identificadores PL/SQL com prefixo, para nunca coincidirem com nome de coluna (dentro de SQL, a coluna vence):
+
+| Prefixo | Uso |
+|---|---|
+| `v_` | Variável local |
+| `c_` | Cursor ou constante |
+| `p_` | Parâmetro |
+| `e_` | Exceção |
+| `t_` | Tipo (`TYPE`, `SUBTYPE`) |
+| `r_` ou `r` | Record de laço |
 
 ## Conteúdo
 

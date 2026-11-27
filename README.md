@@ -22,7 +22,7 @@ Todos os exemplos rodam sobre o mesmo schema fictício de vendas (`00-ambiente`)
 | [05 — Consultas](05-consultas/README.md) | Joins, subqueries, operadores de conjunto, último registro e top-N por grupo, duplicidades, gaps and islands, LATERAL/APPLY |
 | [06 — DML e transações](06-dml-e-transacoes/README.md) | INSERT, UPDATE, DELETE, MERGE, COMMIT, ROLLBACK, SAVEPOINT, consistência de leitura, locks |
 | [07 — DDL e objetos](07-ddl-e-objetos/README.md) | Tabelas, constraints, índices, views, materialized views, sequences, identity, synonyms, DBMS_METADATA |
-| [08 — PL/SQL: fundamentos](08-plsql-fundamentos/README.md) | Blocos, variáveis, %TYPE/%ROWTYPE, controle de fluxo, cursores, exceções |
+| [08 — PL/SQL: fundamentos](08-plsql-fundamentos/README.md) | Blocos, variáveis, %TYPE/%ROWTYPE, SELECT INTO, IF/CASE, laços, cursores, exceções, propagação, records |
 | [09 — PL/SQL: avançado](09-plsql-avancado/README.md) | Procedures, functions, packages, triggers, coleções, BULK COLLECT/FORALL, SQL dinâmico, pipelined |
 | [10 — Dicionário de dados](10-dicionario-de-dados/README.md) | Visões USER_/ALL_/DBA_, V$, consultas de descoberta de estrutura |
 | [11 — Performance](11-performance/README.md) | Plano de execução, DBMS_XPLAN, estatísticas, índices, bind variables, hints |
