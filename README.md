@@ -29,9 +29,9 @@ Todos os exemplos rodam sobre o mesmo schema fictício de vendas (`00-ambiente`)
 | [12 — SQL*Plus e SQLcl](12-sqlplus-sqlcl/README.md) | Comandos, formatação, spool, variáveis de substituição, scripts |
 | [13 — Administração](13-administracao/README.md) | Usuários, privilégios, roles, sessões e locks, DBMS_SCHEDULER, flashback, Data Pump |
 | [14 — Outros SGBDs](14-sgbds/README.md) | Conceitos gerais e equivalência de sintaxe com PostgreSQL, SQL Server e MySQL |
-| [15 — Casos de uso](15-casos-de-uso/README.md) | Problemas recorrentes resolvidos de ponta a ponta |
-| [16 — Mini-projetos](16-mini-projetos/README.md) | Projetos completos: modelagem, carga, packages, testes |
-| [Referências](referencias/README.md) | Folhas de consulta rápida, erros ORA- comuns, documentação oficial |
+| [15 — Casos de uso](15-casos-de-uso/README.md) | Último por grupo, acumulado mensal, ranking, curva ABC, anti-join, auditoria, carga com MERGE, calendário, CPF/CNPJ, CSV, lote, comparar tabelas, texto delimitado |
+| [16 — Mini-projetos](16-mini-projetos/README.md) | Estoque, biblioteca, faturamento, log e auditoria, API com utPLSQL: modelagem, packages e testes de aceite |
+| [Referências](referencias/README.md) | Folhas de SQL e PL/SQL, máscaras de formato, erros ORA- comuns, glossário, documentação oficial |
 
 ## Versão do Oracle
 
