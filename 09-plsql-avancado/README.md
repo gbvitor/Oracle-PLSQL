@@ -17,12 +17,11 @@ Objetos criados pelos scripts usam o prefixo `tmp_` e são removidos no fim de c
 | 09 | SQL dinâmico: EXECUTE IMMEDIATE, binds, injeção, DBMS_ASSERT, DBMS_SQL | [md](09-sql-dinamico.md) | [sql](09-sql-dinamico.sql) |
 | 10 | REF CURSOR e SYS_REFCURSOR | [md](10-ref-cursor.md) | [sql](10-ref-cursor.sql) |
 | 11 | Pipelined table functions | [md](11-pipelined.md) | [sql](11-pipelined.sql) |
+| 12 | PRAGMA AUTONOMOUS_TRANSACTION: log que sobrevive ao ROLLBACK, ORA-06519, deadlock | [md](12-transacao-autonoma.md) | [sql](12-transacao-autonoma.sql) |
+| 13 | Rastreamento de erro: FORMAT_ERROR_BACKTRACE, FORMAT_CALL_STACK, UTL_CALL_STACK | [md](13-rastreamento-de-erro.md) | [sql](13-rastreamento-de-erro.sql) |
+| 14 | AUTHID DEFINER e CURRENT_USER, roles em rotina armazenada, ACCESSIBLE BY (exige DBA) | [md](14-authid.md) | [sql](14-authid.sql) |
+| 15 | Dependências, invalidação e recompilação | [md](15-dependencias.md) | [sql](15-dependencias.sql) |
+| 16 | Pacotes nativos: DBMS_OUTPUT, DBMS_SESSION.SLEEP, DBMS_APPLICATION_INFO, DBMS_LOB, UTL_FILE, DBMS_RANDOM | [md](16-pacotes-nativos.md) | [sql](16-pacotes-nativos.sql) |
+| 17 | Testes unitários com utPLSQL (exige instalação) | [md](17-utplsql.md) | [sql](17-utplsql.sql) |
 
-## Próximos tópicos
-
-- [ ] 12 — PRAGMA AUTONOMOUS_TRANSACTION (log de erro)
-- [ ] 13 — Rastreamento de erro: DBMS_UTILITY.FORMAT_ERROR_BACKTRACE e UTL_CALL_STACK
-- [ ] 14 — Direitos de execução: AUTHID DEFINER e CURRENT_USER
-- [ ] 15 — Dependências, invalidação e recompilação
-- [ ] 16 — Pacotes nativos úteis: DBMS_OUTPUT, DBMS_SESSION.SLEEP, UTL_FILE, DBMS_LOB
-- [ ] 17 — Testes unitários com utPLSQL
+Continua em [10 — Dicionário de dados](../10-dicionario-de-dados/README.md).
