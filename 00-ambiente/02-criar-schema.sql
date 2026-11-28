@@ -6,7 +6,7 @@
 --
 -- Distribuidora fictícia de informática, papelaria e móveis de escritório.
 -- Sete tabelas: departamentos, funcionarios, clientes, categorias, produtos,
--- pedidos e itens_pedido. Modelo descrito em MODELO-DE-DADOS.md.
+-- pedidos e itens_pedido. Modelo descrito em modelo-de-dados.md.
 -- =============================================================================
 
 CREATE TABLE departamentos (

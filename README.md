@@ -45,3 +45,7 @@ Os ambientes gratuitos atuais (FreeSQL e Oracle AI Database Free) rodam 26ai, en
 ## Convenções
 
 Estrutura de cada tópico, nomenclatura de arquivos e padrão dos scripts: [CONVENCOES.md](CONVENCOES.md).
+
+## Licença
+
+Os scripts (`.sql`) estão sob a licença [MIT](LICENSE). Os textos (`.md`) estão sob a [Creative Commons Atribuição 4.0 Internacional (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/deed.pt-br): podem ser copiados e adaptados, inclusive para uso comercial, desde que o autor seja citado.

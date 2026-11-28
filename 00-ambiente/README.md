@@ -6,7 +6,7 @@ Onde rodar os exemplos e como preparar o schema que todo o repositório usa.
 
 | Arquivo | Para que serve |
 |---|---|
-| [MODELO-DE-DADOS.md](MODELO-DE-DADOS.md) | Diagrama, tabelas, regras e casos de borda do schema de exemplo |
+| [modelo-de-dados.md](modelo-de-dados.md) | Diagrama, tabelas, regras e casos de borda do schema de exemplo |
 | [01-criar-usuario.sql](01-criar-usuario.sql) | Cria o usuário `estudo` (rodar como SYSTEM; não se aplica ao FreeSQL) |
 | [02-criar-schema.sql](02-criar-schema.sql) | Cria as sete tabelas, índices e comentários |
 | [03-carregar-dados.sql](03-carregar-dados.sql) | Insere os dados fictícios |
