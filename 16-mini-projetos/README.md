@@ -8,9 +8,9 @@ Cada projeto traz um `README.md` com o enunciado, o modelo de dados, as decisõe
 |---|---|---|---|
 | 01 | [Controle de estoque](01-estoque/README.md) | `est_` | Saldo materializado, trava de linha contra saldo negativo, transferência sem deadlock, savepoint por operação, kardex |
 | 02 | [Biblioteca](02-biblioteca/README.md) | `bib_` | Índice único parcial, limite por categoria com trava do leitor, multa, renovação, fila de reservas com expiração |
+| 03 | [Faturamento simplificado](03-faturamento/README.md) | `fat_` | Numeração sem buraco, parcelas com arredondamento na última, limite de crédito, baixa parcial com encargos, cancelamento |
 
 ## Planejados
 
-- [ ] 03 — Faturamento simplificado: pedido, nota, parcelas e baixa de títulos
 - [ ] 04 — Log e auditoria genéricos: package reutilizável de log com transação autônoma
 - [ ] 05 — API em PL/SQL: package de cadastro com validação, exceções próprias e testes utPLSQL

@@ -11,7 +11,8 @@
 
 CREATE OR REPLACE PACKAGE bib_pkg_biblioteca AS
 
-    c_dias_retirada CONSTANT PLS_INTEGER := 2;  -- prazo para retirar a reserva separada
+    -- Prazo, em dias, para retirar a reserva separada.
+    c_dias_retirada CONSTANT PLS_INTEGER := 2;
 
     e_leitor_invalido        EXCEPTION;  PRAGMA EXCEPTION_INIT(e_leitor_invalido,        -20201);
     e_limite_emprestimos     EXCEPTION;  PRAGMA EXCEPTION_INIT(e_limite_emprestimos,     -20202);
