@@ -156,7 +156,7 @@ SET HEADING ON
 --
 -- Como DBA, uma vez:
 --   CREATE DIRECTORY dir_export AS '/u01/app/oracle/export';
---   GRANT READ, WRITE ON DIRECTORY dir_export TO curso;
+--   GRANT READ, WRITE ON DIRECTORY dir_export TO estudo;
 --
 -- A procedure compila com EXECUTE em UTL_FILE (concedido a PUBLIC numa instalação
 -- padrão, mas às vezes revogado por política de segurança: aí dá PLS-00201).
