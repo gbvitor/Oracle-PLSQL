@@ -10,7 +10,8 @@ Cada projeto traz um `README.md` com o enunciado, o modelo de dados, as decisõe
 | 02 | [Biblioteca](02-biblioteca/README.md) | `bib_` | Índice único parcial, limite por categoria com trava do leitor, multa, renovação, fila de reservas com expiração |
 | 03 | [Faturamento simplificado](03-faturamento/README.md) | `fat_` | Numeração sem buraco, parcelas com arredondamento na última, limite de crédito, baixa parcial com encargos, cancelamento |
 | 04 | [Log e auditoria genéricos](04-log-e-auditoria/README.md) | `log_` | Log autônomo com níveis, execução e backtrace; trigger de auditoria gerado do dicionário; DDL em transação autônoma |
+| 05 | [API em PL/SQL com utPLSQL](05-api-com-utplsql/README.md) | `api_` | Camada de API com validação e normalização, concorrência otimista por versão, consulta paginada, JSON; testes sem framework e suite utPLSQL |
 
-## Planejados
+Ordem sugerida: 01 e 02 (transação e trava), 03 (numeração e arredondamento), 04 (transação autônoma e SQL dinâmico), 05 (desenho de API e testes).
 
-- [ ] 05 — API em PL/SQL: package de cadastro com validação, exceções próprias e testes utPLSQL
+Continua em [Referências](../referencias/README.md).
